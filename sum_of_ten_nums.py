@@ -12,4 +12,4 @@ nums = []
 for i in range (1, 11):
     num = float(input(f"{i}. Enter a number: "))
     nums.append(num)
-print(f"The sum of all ten numbers is {sum(list(map(float, nums)))1}")
+print(f"The sum of all ten numbers is {sum(list(map(float, nums)))}")
