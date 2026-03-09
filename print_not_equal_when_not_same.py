@@ -8,3 +8,8 @@ if num1 != num2:
     print(f"{num1} and {num2} are not equal numbers")
 else:
     print("Sorry, they are equal!")
+
+# Method 2:
+nums = [float(input("Enter first number: ")), float(input("Enter second number: "))]
+if num1 != num2: print(f"{num1} and {num2} are not equal numbers!")
+else: print("Sorry, they are equal!")
