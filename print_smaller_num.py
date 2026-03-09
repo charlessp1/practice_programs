@@ -9,3 +9,6 @@ if num1 < num2:
 else:
     print(f"{num2} is smaller than {num1}")
 
+# Method 2:
+nums = [float(input("Enter first number: ")), float(input("Enter second number: "))]
+print(f"{min(nums)} is smaller than {max(nums)}")
