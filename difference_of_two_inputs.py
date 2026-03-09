@@ -6,3 +6,7 @@ num2 = float(input("Enter second number: "))
 
 difference = num1 - num2
 print(f"The difference of {num1} and {num2} is {difference}")
+
+# Method 2:
+nums = [float(input("Enter first number: ")), float(input("Enter second number: "))]
+print(f"The difference of {nums[0]} and {nums[1]} is {nums[0] - nums[1]}")
