@@ -5,7 +5,7 @@ num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 
 no_decimal = num1 // num2
-print(f"The quotient of {num1} and {num2} without decimal points is {no_decimal}")
+print(f"The quotient of {num1} and {num2} without decimal points is {int(no_decimal)}")
 
 # Method 2:
 nums = [float(input("Enter first number: ")), float(input("Enter second number: "))]
