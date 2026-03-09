@@ -7,4 +7,10 @@ for i in range(101):
         nums.append(i)
 print(*nums, sep=',')
 
-#
+# Method 2:
+nums = [num for num in range(101)]
+evens = [num for num in nums if num % 2 == 0]
+print(*evens, sep=',')
+
+# Method 3:
+print(*range(0, 101, 2), sep=',')
