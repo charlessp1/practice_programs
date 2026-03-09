@@ -8,3 +8,4 @@ for num in range(0, 101):
 print(*nums_w_zero, sep=',')
 
 # Method 2:
+print(*range(0, 101, 10))
