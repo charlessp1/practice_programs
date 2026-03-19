@@ -6,7 +6,7 @@ while True:
     try:
         num = float(input("Enter a number: "))
         nums.append(num)
-        print(f"The lowest number is {min(nums)}")
     except ValueError:
         print("Invalid input")
+        print(f"The lowest number is {min(nums)}")
         break
