@@ -6,7 +6,7 @@ while True:
     try:
         num = float(input("Enter a number: "))
         nums.append(num)
-        print(*sorted(nums), sep=',')
     except ValueError:
         print("Invalid input")
+        print(*sorted(nums), sep=',')
         break
